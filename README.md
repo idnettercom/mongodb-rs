@@ -23,7 +23,7 @@ atau
 
 ```
 rs.initiate({
-  _id: "myReplicaSet",
+  _id: "myrs",
   members: [
     { _id: 0, host: "mongodb-01:27017" },
     { _id: 1, host: "mongodb-02:27017" }
